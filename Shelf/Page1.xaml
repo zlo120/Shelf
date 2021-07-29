@@ -1,0 +1,56 @@
+﻿<Page x:Class="Shelf.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Shelf"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="Page1">
+
+    <Grid>
+
+        <Rectangle x:Name="_1B" Visibility="Visible" HorizontalAlignment="Left" Height="350" Margin="10,107,0,0" Stroke="Black" VerticalAlignment="Top" Width="600">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill"  ImageSource="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\Fallen Order.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="_2B" Visibility="Visible" HorizontalAlignment="Left" Height="350" Margin="669,107,0,0" Stroke="Black" VerticalAlignment="Top" Width="600">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\dauntless.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="_3B" Visibility="Visible" HorizontalAlignment="Left" Height="350" Margin="1304,107,0,0" Stroke="Black" VerticalAlignment="Top" Width="600">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\Batman.jpg" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="_4B" Visibility="Visible" HorizontalAlignment="Left" Height="350" Margin="10,549,0,0" Stroke="Black" VerticalAlignment="Top" Width="600">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\Avengers.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="_5B" Visibility="Visible" HorizontalAlignment="Left" Height="350" Margin="669,549,0,0" Stroke="Black" VerticalAlignment="Top" Width="600">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\Naruto.jpg" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="_6B" Visibility="Visible" HorizontalAlignment="Left" Height="350" Margin="1304,549,0,0" Stroke="Black" VerticalAlignment="Top" Width="600">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\LegoStarWars.jpg" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <Image HorizontalAlignment="Left" Height="54" Margin="1722,976,0,0" VerticalAlignment="Top" Width="54" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4o.png"/>
+
+        <Label Content="Exit" HorizontalAlignment="Left" FontFamily="Corbel" FontSize="50" Margin="1781,968,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="A1" HorizontalAlignment="Left" Height="55" Margin="256,462,0,0" VerticalAlignment="Top" Width="55" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4x.png" Visibility="Hidden"/>
+        <Image HorizontalAlignment="Left" Height="55" Margin="938,462,0,0" VerticalAlignment="Top" Width="55" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4x.png" Visibility="Hidden"/>
+        <Image x:Name="A3" HorizontalAlignment="Left" Height="55" Margin="1585,462,0,0" VerticalAlignment="Top" Width="55" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4x.png" Visibility="Hidden"/>
+        <Image x:Name="A2" HorizontalAlignment="Left" Height="55" Margin="938,462,0,0" VerticalAlignment="Top" Width="55" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4x.png" Visibility="Hidden"/>
+        <Image x:Name="A4" HorizontalAlignment="Left" Height="55" Margin="256,904,0,0" VerticalAlignment="Top" Width="55" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4x.png" Visibility="Hidden"/>
+        <Image x:Name="A6" HorizontalAlignment="Left" Height="55" Margin="1585,904,0,0" VerticalAlignment="Top" Width="55" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4x.png" Visibility="Hidden"/>
+        <Image x:Name="A5" HorizontalAlignment="Left" Height="55" Margin="938,904,0,0" VerticalAlignment="Top" Width="55" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\DS4x.png" Visibility="Hidden"/>
+        <Image x:Name="Right"  HorizontalAlignment="Left" Height="49" Margin="1855,477,0,0" VerticalAlignment="Top" Width="49" Source="C:\\Users\\Zac Lo\\Pictures\\Saved Pictures\\arrow.png" Visibility="Hidden"/>
+        
+    </Grid>
+</Page>
